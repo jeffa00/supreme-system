@@ -1,0 +1,6 @@
+#primary-content,
+ nav,
+ nav ul {
+    display: flex;
+    display: -ms-flex;
+}

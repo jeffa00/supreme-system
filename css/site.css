@@ -1,9 +1,37 @@
 .main-logo img {
     width: 100px;
 }
+body{
+    background-color: mintcream;
+}
+header, footer {
+    background-color: lightseagreen;
+}
 main {
     background-color: lightblue;
 }
 aside {
     background-color: lightcyan;
+}
+
+main, aside {
+    padding: .6rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+nav ul li a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+    text-decoration: underline;
 }

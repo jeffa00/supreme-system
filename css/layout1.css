@@ -1,0 +1,21 @@
+main {
+    width: 60%;
+}
+aside {
+    width: 40%;
+}
+header {
+    height: 60px;
+}
+main, aside {
+    box-sizing: border-box;
+}
+
+main, aside,nav ul, nav li, .main-logo {
+    float: left;
+}
+
+footer, #primary-content {
+    clear: both;
+}
+
